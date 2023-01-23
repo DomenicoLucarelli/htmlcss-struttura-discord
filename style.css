@@ -17,7 +17,7 @@ nav{
     align-items: center;
 }
 
-section{
+#header-section{
     min-height: 300px;
     max-width: 1000px;
     min-width: 700px;
@@ -96,4 +96,39 @@ li{
     height: 30px;
 
     background-color: yellow;
+}
+
+main{
+    min-height: 800px;
+    max-width: 1000px;
+    min-width: 700px;
+    margin: auto;
+
+    background-color: violet;
+  
+
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 5px;
+   
+
+}
+
+/* .section-box1, .section-box2 */
+
+.box1{
+    background-color: rgba(0, 0, 255, 0.404);
+   
+    height: 200px;
+    width: 400px;
+}
+
+.box2{
+    background-color: rgba(0, 0, 255, 0.404);
+    
+    height: 200px;
+    width: 500px;
 }
