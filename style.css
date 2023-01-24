@@ -161,7 +161,6 @@ footer{
     background-color: aqua;
 
     display: flex;
-    gap: 5px;
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -175,9 +174,10 @@ footer{
 }
 
 .info{
-    width: 69%;
+    width: 70%;
     min-height: 200px;
     background-color:rgba(0, 128, 0, 0.781) ;
+    padding: 0 5px 0 5px;
 }
 
 .footer-ul{
